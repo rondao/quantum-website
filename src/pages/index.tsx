@@ -28,6 +28,18 @@ export default function Home() {
           </ul>
         </div>
       </header>
+
+      <section id="companyPresentation" className="py-12 border-b-2">
+        <div className="container grid mx-auto">
+          <div className="p-48 mx-auto bg-gray-400">LOGO</div>
+          <div className="pt-6 text-center">
+            A Quantum visa elevar o desepenho acadêmico de estudantes de todas
+            as faixas etárias e classes sociais. <br />
+            Democratizar a educação de excelência, mediante métodos inovadores
+            de ensino, proporcionando uma experiência única para cada estudante.
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
