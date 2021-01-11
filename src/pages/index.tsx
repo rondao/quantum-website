@@ -40,6 +40,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="subjects" className="py-12 border-b-2">
+        <div className="container grid gap-8 mx-auto grid-cols-fill">
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 1
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 2
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 3
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 4
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 5
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 6
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 7
+          </div>
+          <div className="py-6 text-center bg-gray-400 rounded-lg">
+            Disciplina 8
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
