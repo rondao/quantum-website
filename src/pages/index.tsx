@@ -94,6 +94,54 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="professors" className="py-12 border-b-2">
+        <div className="pb-6 text-center">
+          Confira a qualificação de nossos professores.
+        </div>
+        <div className="container flex w-1/2 p-2 mx-auto bg-gray-400 rounded-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="white"
+            className="w-8 px-1"
+          >
+            {" "}
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />{" "}
+          </svg>
+          <input
+            type="text"
+            placeholder="Procurar por professor"
+            className="w-full placeholder-white bg-transparent border-b-2"
+          />
+        </div>
+        <div className="container grid gap-8 p-8 mx-auto grid-cols-fill">
+          <div className="py-10 text-center bg-gray-400 rounded-lg">
+            Professor 1
+          </div>
+          <div className="py-10 text-center bg-gray-400 rounded-lg">
+            Professor 2
+          </div>
+          <div className="py-10 text-center bg-gray-400 rounded-lg">
+            Professor 3
+          </div>
+          <div className="py-10 text-center bg-gray-400 rounded-lg">
+            Professor 4
+          </div>
+          <div className="py-10 text-center bg-gray-400 rounded-lg">
+            Professor 5
+          </div>
+          <div className="py-10 text-center bg-gray-400 rounded-lg">
+            Professor 6
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
