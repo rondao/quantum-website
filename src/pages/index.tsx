@@ -42,6 +42,9 @@ export default function Home() {
       </section>
 
       <section id="subjects" className="py-12 border-b-2">
+        <div className="pb-6 text-center">
+          Confira as disciplinas e conteúdos cobertos por nossos professores.
+        </div>
         <div className="container flex w-1/2 p-2 mx-auto bg-gray-400 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +63,7 @@ export default function Home() {
           </svg>
           <input
             type="text"
-            placeholder="Procurar por disciplina"
+            placeholder="Procurar por disciplina/conteúdo"
             className="w-full placeholder-white bg-transparent border-b-2"
           />
         </div>
