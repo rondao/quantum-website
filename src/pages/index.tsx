@@ -9,18 +9,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header id="navBar" className="py-6 border-b-2">
-        <div className="container flex justify-between mx-auto">
-          <a href="#">Quantum</a>
+      <header id="navBar" className="py-4 border-b-2">
+        <div className="container flex items-center justify-between mx-auto">
+          <a href="#" className="flex">
+            <img className="h-10" src="/quantum_text.png" alt="Quantum" />
+          </a>
           <ul className="flex">
             <li className="px-2 mx-4">
               <a href="#">Aulas Particulares</a>
             </li>
             <li className="px-2 mx-4">
-              <a href="#">Cursos</a>
+              <a href="#subjects">Cursos</a>
             </li>
             <li className="px-2 mx-4">
-              <a href="#">Professores</a>
+              <a href="#professors">Professores</a>
             </li>
             <li className="px-2 mx-4">
               <a href="#">Entrar</a>
@@ -31,8 +33,10 @@ export default function Home() {
 
       <section id="companyPresentation" className="py-12 border-b-2">
         <div className="container grid mx-auto">
-          <div className="p-48 mx-auto bg-gray-400">LOGO</div>
-          <div className="pt-6 text-center">
+          <div className="p-6 mx-auto">
+            <img src="/quantum_logo.png" alt="Quantum Logo" />
+          </div>
+          <div className="pt-6 text-xl text-center">
             A Quantum visa elevar o desepenho acadêmico de estudantes de todas
             as faixas etárias e classes sociais. <br />
             Democratizar a educação de excelência, mediante métodos inovadores
