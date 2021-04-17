@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header id="navBar" className="py-4 border-b-2">
+      <header id="navBar" className="fixed w-full py-4 bg-white">
         <div className="container flex items-center justify-between mx-auto">
           <a href="#" className="flex">
             <img className="h-10" src="/quantum_text.png" alt="Quantum" />
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="companyPresentation" className="py-12 border-b-2">
+      <section id="companyPresentation" className="py-12 bg-white pt-36">
         <div className="container grid mx-auto">
           <div className="p-6 mx-auto">
             <img src="/quantum_logo.png" alt="Quantum Logo" />
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="subjects" className="py-12 border-b-2">
+      <section id="subjects" className="py-12 bg-gray-50">
         <div className="pb-6 text-center">
           Confira as disciplinas e conteúdos cobertos por nossos professores.
         </div>
