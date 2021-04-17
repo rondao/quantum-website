@@ -45,56 +45,70 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="subjects" className="py-12 bg-gray-50">
-        <div className="pb-6 text-center">
-          Confira as disciplinas e conteúdos cobertos por nossos professores.
-        </div>
-        <div className="container flex w-1/2 p-2 mx-auto bg-gray-400 rounded-lg">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="white"
-            className="w-8 px-1"
-          >
-            {" "}
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />{" "}
-          </svg>
-          <input
-            type="text"
-            placeholder="Procurar por disciplina/conteúdo"
-            className="w-full placeholder-white bg-transparent border-b-2"
-          />
-        </div>
-        <div className="container grid gap-8 p-8 mx-auto grid-cols-fill">
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 1
+      <section id="subjects" className="bg-fixed bg-bookcase">
+        <div className="py-12 bg-gradient-border">
+          <div className="pb-6 text-center">
+            Confira as disciplinas e conteúdos cobertos por nossos professores.
           </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 2
+          <div className="container flex w-1/2 p-2 mx-auto bg-gray-400 rounded-lg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="white"
+              className="w-8 px-1"
+            >
+              {" "}
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />{" "}
+            </svg>
+            <input
+              type="text"
+              placeholder="Procurar por disciplina/conteúdo"
+              className="w-full placeholder-white bg-transparent border-b-2"
+            />
           </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 3
-          </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 4
-          </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 5
-          </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 6
-          </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 7
-          </div>
-          <div className="py-6 text-center bg-gray-400 rounded-lg">
-            Disciplina 8
+          <div className="container grid gap-8 p-8 mx-auto grid-cols-fill">
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 1
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 2
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 3
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 4
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 5
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 6
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 7
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 8
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 9
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 10
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 11
+            </div>
+            <div className="py-6 text-center bg-gray-400 rounded-lg">
+              Disciplina 12
+            </div>
           </div>
         </div>
       </section>
