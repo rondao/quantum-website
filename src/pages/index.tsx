@@ -11,17 +11,17 @@ export default function Home() {
 
       <header id="navBar" className="fixed w-full py-4 bg-white">
         <div className="container flex items-center justify-between mx-auto">
-          <a href="#" className="flex">
+          <a href="#" className="flex px-2">
             <img className="h-10" src="/quantum_text.png" alt="Quantum" />
           </a>
           <ul className="flex">
-            <li className="px-2 mx-4">
+            <li className="hidden px-2 mx-4 sm:block">
               <a href="#">Aulas Particulares</a>
             </li>
-            <li className="px-2 mx-4">
+            <li className="hidden px-2 mx-4 sm:block">
               <a href="#subjects">Cursos</a>
             </li>
-            <li className="px-2 mx-4">
+            <li className="hidden px-2 mx-4 sm:block">
               <a href="#professors">Professores</a>
             </li>
             <li className="px-2 mx-4">
@@ -31,14 +31,14 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="companyPresentation" className="py-12 bg-white pt-36">
+      <section id="companyPresentation" className="px-8 py-12 bg-white pt-36">
         <div className="container grid mx-auto">
-          <div className="p-6 mx-auto">
+          <div className="mx-auto">
             <img src="/quantum_logo.png" alt="Quantum Logo" />
           </div>
-          <div className="pt-6 text-xl text-center">
+          <div className="pt-6 text-sm text-center sm:text-xl">
             A Quantum visa elevar o desepenho acadêmico de estudantes de todas
-            as faixas etárias e classes sociais. <br />
+            as faixas etárias e classes sociais. <br /> <br />
             Democratizar a educação de excelência, mediante métodos inovadores
             de ensino, proporcionando uma experiência única para cada estudante.
           </div>
@@ -46,11 +46,11 @@ export default function Home() {
       </section>
 
       <section id="subjects" className="bg-fixed bg-bookcase">
-        <div className="py-12 bg-gradient-border">
+        <div className="px-8 py-12 bg-gradient-border">
           <div className="pb-6 text-center">
             Confira as disciplinas e conteúdos cobertos por nossos professores.
           </div>
-          <div className="container flex w-1/2 p-2 mx-auto bg-gray-400 rounded-lg">
+          <div className="container flex p-2 mx-auto bg-gray-400 rounded-lg w-max sm:w-1/2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -72,7 +72,7 @@ export default function Home() {
               className="w-full placeholder-white bg-transparent border-b-2"
             />
           </div>
-          <div className="container grid gap-8 p-8 mx-auto grid-cols-fill">
+          <div className="container grid grid-cols-2 gap-8 p-8 mx-auto sm:grid-cols-fill">
             <div className="py-6 text-center bg-gray-400 rounded-lg">
               Disciplina 1
             </div>
@@ -117,7 +117,7 @@ export default function Home() {
         <div className="pb-6 text-center">
           Confira a qualificação de nossos professores.
         </div>
-        <div className="container flex w-1/2 p-2 mx-auto bg-gray-400 rounded-lg">
+        <div className="container flex p-2 mx-auto bg-gray-400 rounded-lg w-max sm:w-1/2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
