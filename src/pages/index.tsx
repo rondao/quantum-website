@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
+import { Facebook, Phone, WhatsApp } from "@material-ui/icons";
+
 export default function Home() {
   return (
     <div>
@@ -113,7 +115,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="professors" className="py-12 border-b-2">
+      <section id="professors" className="py-12">
         <div className="pb-6 text-center">
           Confira a qualificação de nossos professores.
         </div>
@@ -160,6 +162,25 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer id="footer" className="w-full py-4 border-t-2">
+        <div className="container flex mx-auto">
+          <div className="flex-row px-6">
+            <div>
+              <Phone /> (11) 4103-6491
+            </div>
+            <div>
+              <WhatsApp className="text-green-500" /> (11) 96639-4946
+            </div>
+          </div>
+          <a href="http://www.facebook.com/QuantumAcademicas">
+            <Facebook
+              className="text-4xl text-blue-500"
+              style={{ fontSize: 48 }}
+            />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
