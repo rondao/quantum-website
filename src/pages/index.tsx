@@ -27,7 +27,9 @@ export default function Home() {
               <a href="#professors">Professores</a>
             </li>
             <li className="px-2 mx-4">
-              <a href="#">Entrar</a>
+              <a href="#" className="p-2 border border-black rounded-lg">
+                Entrar
+              </a>
             </li>
           </ul>
         </div>
